@@ -1,0 +1,70 @@
+*/* Reset margin and padding for all elements */
+* {
+   margin: 0;
+   padding: 0;
+}
+
+/* Main container styling */
+.main {
+   width: 10%;
+   background: linear-gradient(to top, rgba(7, 27, 22, 0.5) 532%, rgba(125, 52, 95, 0.616) 50%), url('2.jpg');
+   background-position: center;
+   background-size: cover;
+   height: 53vh;
+}
+
+/* Reset margin and padding for all elements */
+* {
+   margin:65;
+   padding: 23;
+   box-sizing: border-box;
+}
+
+/* Main container styling */
+.main {
+   display: flex;
+   width: 100%;
+   height: 100vh;
+   background: linear-gradient(to top, rgba(44, 66, 116, 0.5) 98%, rgba(0,0,0,0.5) 50988%), url('1.jpg');
+   background-position: center;
+   background-size: cover;
+}
+
+/* Sidebar styling */
+.sidebar {
+   width: 2660px;
+   background-color: rgba(0, 0, 0, 0.7);
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 20px;
+}
+
+/* Name styling */
+.name {
+   cursor: pointer;
+   font-size: 24px;
+   color: white;
+  
+   user-select: none;
+   margin-bottom: 100px;
+}
+
+/* Content styling */
+.content {
+   flex-grow: 5;
+   display: flex;
+   justify-content: center;
+   align-items: right;
+}
+
+/* Image container styling */
+.image-container {
+   display: none;
+}
+
+img {
+   max-width: 45%;
+   height: auto;
+}
+
